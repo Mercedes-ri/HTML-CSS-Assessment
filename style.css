@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-family: fantasy;
+    color:blueviolet;
+    font-size: 50px;
+    font-weight:fantasy;
+    text-align: center;
+    border-style:ridge;
+    letter-spacing: 10px;
+
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(129, 11, 100);
+}
+h3{
+    text-align: center;
+    color: rgb(5, 5, 90);
+}
+
+
+.header{
+    color: aliceblue;
+}
+p{
+    font-family: 'island moments', cursive;
+    background-color: #ecc9c3;
+    word-spacing: 10px;
+    letter-spacing: 0.5px;
+}
+#para2{
+    font-style: italic;
+    word-spacing: 6px;
+
+}
+
+#para1{
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+span{
+    background-color: blue;
+}
+td,th{
+    height: 80px;
+    width: 240px;
+    border: 2px solid rgb(13, 13, 31);
+    border-radius: 5px;
+    padding: 100px;
+    padding: 6px 11px 4px 90px;
+    margin: 200px;
+    margin: 6px 11px 4px 90px;
+    overflow: scroll;
+    border: 2px solid blue;
+
+
+}
+
+body {
+    background-color: bisque;
+
+}
+
+
