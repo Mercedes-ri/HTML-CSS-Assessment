@@ -1,71 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
-
-h1 {
-    font-family: fantasy;
-    color:blueviolet;
-    font-size: 50px;
-    font-weight:fantasy;
-    text-align: center;
-    border-style:ridge;
-    letter-spacing: 10px;
-
-}
-h2{
-    text-align: center;
-    text-decoration: underline;
-    color: rgb(129, 11, 100);
-}
-h3{
-    text-align: center;
-    color: rgb(5, 5, 90);
-}
-
-
-.header{
-    color: aliceblue;
-}
-p{
-    font-family: 'island moments', cursive;
-    background-color: #ecc9c3;
-    word-spacing: 10px;
-    letter-spacing: 0.5px;
-}
-#para2{
-    font-style: italic;
-    word-spacing: 6px;
-
-}
-
-#para1{
-    font-style: italic;
-    font-family: 'Dancing Script', cursive;
-}
-span{
-    background-color: blue;
-}
-td,th{
-    height: 80px;
-    width: 240px;
-    border: 2px solid rgb(13, 13, 31);
-    border-radius: 5px;
-    padding: 100px;
-    padding: 6px 11px 4px 90px;
-    margin: 200px;
-    margin: 6px 11px 4px 90px;
-    overflow: scroll;
-    border: 2px solid blue;
-
-
-}
-
 body {
-    background-color: bisque;
-
+    font-family: "monospace", "sans-serif";
+  }
+  .font-primary {
+    color: #00ABAE;
+  }
+  .title-icon {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 100;
 }
-
-
+  h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  a.font-black {
+    color: #000 !important;
+  }
+  /* about  */
+  #about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+  }
+  #about img {
+    border-radius: 99%;
+    width: 8vw;
+    margin-bottom: 10px;
+    height: 8vw;
+  }
+  #about .name {
+    font-size: 19px;
+  }
+  #about .vocation {
+    font-size: 17px;
+    color: #8F8F8F;
+    margin-bottom: 10px;
+  }
+  #about .skills {
+    font-size: 14px;
+    color: #00ABAE;
+    margin-bottom: 10px;
+  }
+  #about .email {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  #about .icons {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  #about .icons a {
+    color: #000;
+  }
+  #project {
+    margin: 60px auto;
+    width: 80%;
+  }
+  #project h2 {
+    text-align: center;
+  }
+  #project .card {
+    width: 100%;
+  }
+  #project .card img {
+    width: 100%;
+  }
+  #project .card-title {
+    font-weight: bold;
+  }
+  .project-video {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+  }
